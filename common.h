@@ -630,15 +630,6 @@ int get_num_proc   (int);
 int get_node_equal (void);
 #endif
 
-void goto_set_num_threads(int);
-
-void gotoblas_affinity_init(void);
-void gotoblas_affinity_quit(void);
-void gotoblas_dynamic_init(void);
-void gotoblas_dynamic_quit(void);
-void gotoblas_profile_init(void);
-void gotoblas_profile_quit(void);
-
 #ifdef USE_OPENMP
 #ifndef C_MSVC
 int omp_in_parallel(void);
